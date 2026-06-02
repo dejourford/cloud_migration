@@ -1,10 +1,11 @@
 variable "project_name" {
     type = string
-    default = "recap"
+    default = "server"
 }
 
 variable "region" {
     type = string
+    default = "us-east-2"
 }
 
 variable "allowed_ssh_cidr" {

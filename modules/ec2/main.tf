@@ -25,7 +25,6 @@ data "aws_ami" "ubuntu" {
 resource "aws_instance" "ec2" {
   ami           = data.aws_ami.ubuntu.id
   instance_type = var.instance_type
-  iam_instance_profile = var.iam_instance_profile
   subnet_id     = var.subnet_id
   vpc_security_group_ids = var.security_group_ids
   key_name = var.key_name
