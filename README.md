@@ -37,7 +37,10 @@ The migration involves provisioning a virtual server (EC2), installing a LAMP st
 ![WordPress Live](screenshots/wordpress_live.png)
 
 ## Results
-*To be completed.*
+![WordPress Site](screenshots/index_page.png)
+
+Successfully deployed a fully functional WordPress site on AWS. The LAMP stack (Linux, Apache, MySQL, PHP) was configured on an EC2 instance provisioned with Terraform, and WordPress was accessible via the public IP over HTTP.
+
 
 ## Lessons Learned
 *To be completed.*
