@@ -15,7 +15,26 @@ The migration involves provisioning a virtual server (EC2), installing a LAMP st
 - **Infrastructure as Code:** Terraform
 
 ## Procedure
-*Steps will be documented here as the project progresses.*
+
+1. Provisioned AWS infrastructure using Terraform
+![Terraform Apply](screenshots/terraform_apply.png)
+
+2. SSH'd into EC2 instance
+![SSH Connection](screenshots/ssh_ec2.png)
+
+3. Installed and configured Apache web server
+![Apache Default Page](screenshots/apache_default.png)
+
+4. Installed and secured MySQL
+![MySQL Status](screenshots/mysql_status.png)
+
+5. Installed PHP and required extensions
+
+6. Deployed WordPress
+![WordPress Install](screenshots/wordpress_install.png)
+
+7. Confirmed WordPress site live
+![WordPress Live](screenshots/wordpress_live.png)
 
 ## Results
 *To be completed.*
