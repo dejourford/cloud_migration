@@ -109,7 +109,7 @@ resource "aws_security_group" "sg" {
 #----------------------------------------------#
 resource "aws_key_pair" "key" {
   key_name   = "${var.project_name}-key"
-  public_key = file("~/.ssh/my-project.pub")
+  public_key = file("~/.ssh/cloud_migration.pub")
 }
 
 #----------------------------------------------#
